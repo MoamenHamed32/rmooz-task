@@ -1,0 +1,59 @@
+.container {
+  padding: 2.68rem 0;
+  position: relative;
+}
+/* logo section */
+.logo {
+  width: 20%;
+}
+
+/* search section */
+
+.search_bar {
+  width: 50%;
+}
+
+.search_drop {
+  position: absolute;
+  width: 90%;
+  padding: 1rem;
+  left: 8%;
+  bottom: -35%;
+  background-color: #f5f4f2;
+  z-index: 10;
+  border-radius: 1.2rem;
+  display: none;
+}
+
+.search_drop.active {
+  display: block;
+}
+
+/* actions section */
+.actions {
+  width: 30%;
+}
+
+.actions a {
+  padding-right: 0.5rem;
+}
+
+.cart_counter {
+  width: 5px;
+  height: 5px;
+  right: 5px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: #d90000;
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+  .actions {
+    width: 80%;
+  }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .actions {
+    width: 65%;
+  }
+}

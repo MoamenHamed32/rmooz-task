@@ -1,0 +1,21 @@
+.search_form {
+  width: 50%;
+  height: 2.5rem;
+}
+
+.search_icon {
+  right: 1.625rem;
+}
+
+.search_bar {
+  border-radius: 1rem;
+  padding: 1.625rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 400;
+  outline: none;
+}
+
+.search_bar::placeholder {
+  color: #b7b7b7;
+}

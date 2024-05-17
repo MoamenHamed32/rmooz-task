@@ -1,0 +1,41 @@
+.aside {
+  width: 25%;
+}
+.filter {
+  width: 100%;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  padding: 1.02rem 1.43rem;
+}
+
+.filter input[type="text"] {
+  width: 100%;
+  height: 2.81rem;
+  border: 2px solid #8576ca;
+  border-radius: 3px;
+  padding: 0 0.9rem;
+}
+
+.filter input[type="checkbox"] {
+  width: 20px;
+}
+
+.filter input::placeholder {
+  color: #8576ca;
+}
+
+.filter_headings {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.category {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.checks {
+  gap: 0.68rem;
+}

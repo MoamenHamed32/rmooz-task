@@ -1,0 +1,39 @@
+.footer {
+  background-color: #f5f4f2;
+  padding: 3.375rem 0;
+}
+
+.title,
+.section_title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.81rem;
+  color: #a652e3;
+}
+
+.section_desc {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+}
+
+.section_list {
+  list-style: none;
+  padding: 0;
+}
+.section_list li {
+  padding: 0.625rem 0;
+}
+.section_list li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.81rem;
+  color: #000;
+}
+
+.domain {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
