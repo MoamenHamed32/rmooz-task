@@ -25,3 +25,8 @@
     display: none !important;
   }
 }
+@media (min-width: 962px) and (max-width: 1291px) {
+  .options_container {
+    justify-content: flex-start !important;
+  }
+}
