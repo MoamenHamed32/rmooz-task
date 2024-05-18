@@ -996,7 +996,9 @@ export default function PageContent() {
   return (
     <section className={styles.page}>
       {switchRender(pathName).options && (
-        <div className={`w-100 d-flex gap-3 my-5`}>
+        <div
+          className={`${styles.options_container} w-100 d-flex gap-3 my-5 justify-content-center flex-wrap`}
+        >
           {switchRender(pathName).options.options.map((option) => {
             return (
               <a
