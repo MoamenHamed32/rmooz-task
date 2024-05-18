@@ -82,7 +82,7 @@ const switchRender = (path) => {
             title: "Silver Braceletes",
             rate: 5,
             price: 7000,
-            img: "assets/products/Silver Braceletes.png",
+            img: "assets/products/Silver braceletes.png",
           },
           {
             id: 12,
@@ -110,7 +110,7 @@ const switchRender = (path) => {
             title: "Silver Braceletes",
             rate: 5,
             price: 5000,
-            img: "assets/products/Silver Braceletes.png",
+            img: "assets/products/Silver braceletes.png",
           },
         ],
       };
@@ -703,7 +703,7 @@ const switchRender = (path) => {
             title: "Silver Braceletes",
             rate: 5,
             price: 7000,
-            img: "assets/products/Silver Braceletes.png",
+            img: "assets/products/Silver braceletes.png",
           },
           {
             id: 12,
@@ -731,7 +731,7 @@ const switchRender = (path) => {
             title: "Silver Braceletes",
             rate: 5,
             price: 5000,
-            img: "assets/products/Silver Braceletes.png",
+            img: "assets/products/Silver braceletes.png",
           },
         ],
       };
