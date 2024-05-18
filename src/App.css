@@ -75,3 +75,16 @@
     font-size: 0.8rem;
   }
 }
+
+/* React Range Input OverRiding */
+.p_range .range-slider__range {
+  background: rgba(133, 118, 202, 1) !important;
+}
+.p_range .range-slider__thumb {
+  background: rgba(133, 118, 202, 1) !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+.range-slider {
+  height: 4px !important;
+}

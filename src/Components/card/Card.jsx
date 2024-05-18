@@ -10,12 +10,14 @@ const rateStarsStyle = {
   inactiveFillColor: "#fbf1a9",
 };
 
-export default function Card({ data }) {
+export default function Card({ data, options }) {
+  console.log(options);
   return (
     <div className={`${styles.card} col-sm-12 col-md-4 col-lg-3 my-3`}>
       <figure className="w-100">
         <img src={data.img} alt="" className="w-100" />
       </figure>
+
       <div className={`${styles.card_info} p-3`}>
         <h2 className="title">{data.title}</h2>
         <div className={`${styles.rate} my-2`}>

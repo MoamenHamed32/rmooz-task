@@ -2,7 +2,9 @@ import React from "react";
 import styles from "./sidebar.module.css";
 
 import Breadcrumb from "react-bootstrap/Breadcrumb";
-// import Form from "react-bootstrap/Form";
+
+import RangeSlider from "react-range-slider-input";
+import "react-range-slider-input/dist/style.css";
 
 export default function Sidebar() {
   return (
@@ -103,6 +105,25 @@ export default function Sidebar() {
             <figure>
               <img src="assets/filter.png" alt="" />
             </figure>
+          </div>
+          <div className="price_range">
+            <RangeSlider
+              className="p_range"
+              min={0}
+              max={150}
+              step={6}
+              value={[51, 113]}
+            />
+            <div
+              className={`${styles.pricing_inp_labels} d-flex align-items-center justify-content-between my-2`}
+            >
+              <span>0</span>
+              <span>10</span>
+              <span>24</span>
+              <span>56</span>
+              <span>100</span>
+              <span>150</span>
+            </div>
           </div>
         </div>
       </form>

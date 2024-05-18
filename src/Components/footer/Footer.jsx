@@ -17,22 +17,22 @@ export default function Footer() {
             <h3 className={styles.title}>MENU</h3>
             <ul className={styles.section_list}>
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="#">Necklaces</a>
+                <a href="/necklaces">Necklaces</a>
               </li>
               <li>
-                <a href="#">Braceletes</a>
+                <a href="/braceletes">Braceletes</a>
               </li>
               <li>
-                <a href="#">Rings</a>
+                <a href="/rings">Rings</a>
               </li>
               <li>
-                <a href="#">Earrings</a>
+                <a href="/earrings">Earrings</a>
               </li>
               <li>
-                <a href="#">Watches</a>
+                <a href="/watches">Watches</a>
               </li>
             </ul>
           </div>

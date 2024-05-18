@@ -3,7 +3,6 @@ import Footer from "./Components/footer/Footer";
 import Header from "./Components/header/Header";
 import Navbar from "./Components/navbar/Navbar";
 import PageContent from "./Components/pages/PageContent";
-import ProductDetails from "./Components/productDetails/ProductDetails";
 import Sidebar from "./Components/sideBar/Sidebar";
 
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
@@ -18,81 +17,76 @@ function App() {
           <Route
             path="/"
             element={
-              <div className="content_container mx-auto py-5 d-flex justify-content-between">
+              <section className="content_container mx-auto py-5 d-flex justify-content-between">
                 <Sidebar />
                 <PageContent />
-              </div>
+              </section>
             }
           />
           <Route
             path="/rings"
             element={
-              <div className="content_container mx-auto py-5 d-flex justify-content-between">
+              <section className="content_container mx-auto py-5 d-flex justify-content-between">
                 <Sidebar />
                 <PageContent />
-              </div>
+              </section>
             }
           />
           <Route
             path="/necklaces"
             element={
-              <div className="content_container mx-auto py-5 d-flex justify-content-between">
+              <section className="content_container mx-auto py-5 d-flex justify-content-between">
                 <Sidebar />
                 <PageContent />
-              </div>
+              </section>
             }
           />
           <Route
             path="/watches"
             element={
-              <div className="content_container mx-auto py-5 d-flex justify-content-between">
+              <section className="content_container mx-auto py-5 d-flex justify-content-between">
                 <Sidebar />
                 <PageContent />
-              </div>
+              </section>
             }
           />
           <Route
             path="/earrings"
             element={
-              <div className="content_container mx-auto py-5 d-flex justify-content-between">
+              <section className="content_container mx-auto py-5 d-flex justify-content-between">
                 <Sidebar />
                 <PageContent />
-              </div>
+              </section>
             }
           />
           <Route
             path="/braceletes"
             element={
-              <div className="content_container mx-auto py-5 d-flex justify-content-between">
+              <section className="content_container mx-auto py-5 d-flex justify-content-between">
                 <Sidebar />
                 <PageContent />
-              </div>
+              </section>
             }
           />
           <Route
             path="/anklet"
             element={
-              <div className="content_container mx-auto py-5 d-flex justify-content-between">
+              <section className="content_container mx-auto py-5 d-flex justify-content-between">
                 <Sidebar />
                 <PageContent />
-              </div>
+              </section>
             }
           />
           <Route
             path="/noseraings"
             element={
-              <div className="content_container mx-auto py-5 d-flex justify-content-between">
+              <section className="content_container mx-auto py-5 d-flex justify-content-between">
                 <Sidebar />
                 <PageContent />
-              </div>
+              </section>
             }
           />
-          <Route path="/details" element={<ProductDetails />} />
         </Routes>
-        {/* <div className="content_container mx-auto py-5 d-flex justify-content-between">
-          <Sidebar />
-          <PageContent />
-        </div> */}
       </section>
       <Footer />
     </Router>

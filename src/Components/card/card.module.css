@@ -10,6 +10,9 @@
   color: #000;
   font-weight: 600;
   line-height: 1.51rem;
+  height: 1.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .card_info button {
   background: linear-gradient(to right, #a652e3, #a752e370);
@@ -20,4 +23,5 @@
   color: #fff;
   font-weight: 600;
   line-height: 1rem;
+  z-index: 10;
 }

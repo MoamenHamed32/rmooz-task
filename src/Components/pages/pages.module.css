@@ -1,3 +1,21 @@
 .page {
   width: 73%;
 }
+
+.option_link {
+  width: 12.5rem;
+  border: 2px solid #929292;
+  border-radius: 1.87rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.5rem;
+}
+
+.sort {
+  font-size: 1.25rem;
+  line-height: 1.87rem;
+  border: none;
+  background-color: transparent;
+}
